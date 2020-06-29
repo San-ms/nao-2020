@@ -1,0 +1,281 @@
+@font-face {
+  font-family: SangBleuEmpire-Regular;
+  font-weight: 200;
+  src: url('fonts/SangBleuEmpire-Regular.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-RegularItalic;
+  font-style: italic;
+  src: url('fonts/SangBleuEmpire-RegularItalic.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Medium;
+  font-weight: 400;
+  src: url('fonts/SangBleuEmpire-Medium.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Medium;
+  font-style: italic;
+  src: url('fonts/SangBleuEmpire-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Bold;
+  font-weight: 600;
+  src: url('fonts/SangBleuEmpire-Bold.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Bold;
+  font-weight: 600;
+  font-style: italic;
+  src: url('fonts/SangBleuEmpire-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Black;
+  font-weight: 800;
+  src: url('fonts/SangBleuEmpire-Black.otf');
+}
+
+@font-face {
+  font-family: SangBleuEmpire-Black;
+  font-style: italic;
+  src: url('fonts/SangBleuEmpire-BlackItalic.otf');
+}
+
+@font-face {
+  font-family: TimesDotRom;
+  src: url('fonts/TimesDotRom.otf');
+}
+
+@font-face {
+  font-family: TimesDotBold;
+  src: url('fonts/TimesDotBol.otf');
+}
+
+@font-face {
+  font-family: TimesDotItalic;
+  src: url('fonts/TimesDotItalic.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, a, p {
+  color: #FF0202;
+  word-break: break-word;
+}
+
+a, p {
+  font-family: "TimesDotRom";
+}
+
+.menu-b {
+  font-size: 1.8vw;
+  font-family: "TimesDotItalic";
+  text-decoration: underline;
+}
+
+.menu-b:hover {
+  font-family: "TimesDotRom";
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "SangBleuEmpire-Medium";
+  font-size: 1.8vw;
+  font-style: italic;
+}
+
+.logo:hover {
+  font-family: "SangBleuEmpire-Medium";
+  font-style: normal;
+  color: #FF0202;
+  text-decoration: none;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+}
+
+.foot {
+  position: fixed;
+  bottom: 0;
+}
+
+.top, .foot {
+  margin: 10px;
+}
+
+.row {
+  justify-content: space-between;
+  width: 100%;
+}
+
+#container {
+  display: block;
+  position: relative;
+  margin-top: 3rem;
+}
+
+#main-text {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  width: 85%;
+
+
+}
+
+.description {
+  font-size: 3.8vw;
+  line-height: 4.1vw;
+  margin: 10% auto 5%;
+}
+
+.selected-works h2 {
+  margin-top: 10px;
+  /* Como hacer para que no aparezca pegado arriba del browser sino a la altura de los botones (10px) */
+}
+
+.content-fluid .projects {
+  text-align: center;
+  justify-content: center;
+  te
+  /* position: fixed; */
+}
+
+.project_name_menu h1 {
+  display: inline-block;
+  font-size: 9vw;
+  font-family: "SangBleuEmpire-Medium";
+  line-height: 9.2vw;
+  margin: 4vw auto 0;
+}
+
+.project_name_menu:hover {
+  font-style: italic;
+  text-decoration: none;
+  visibility: visible;
+}
+
+.project_name h1 {
+  display: inline-block;
+  font-size: 9vw;
+  font-family: "SangBleuEmpire-Medium";
+  line-height: 9.2vw;
+  margin: 4vw auto 0;
+}
+
+.text-project {
+  /* Aqui se hace un espacio entre el titulo y el parrafo por las flechas */
+  margin: 0 auto 5%;
+  text-align: left;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  column-count: 2;
+}
+
+.tags {
+  font-size: 1.6vw;
+  line-height: 1.7vw;
+  letter-spacing: 0.25vw;
+  font-variant: small-caps;
+}
+
+.next, .prev {
+  display: inline;
+  height: 8vw;
+}
+
+.row.arrow {
+  display: relative;
+  justify-content: space-between;
+  /* Esto no funciona, lo que quiero es que se quede quieto en el fondo */
+  position: fixed;
+  top: 30vw;
+  left: 0;
+}
+
+.titel-mobile {
+  margin-top: 15px;
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+#galeria {
+  width: 85%;
+  margin-top: 0px;
+  z-index: 1;
+  background-color: yellow;
+  opacity: 20%;
+}
+
+@media screen and (max-width: 590px) {
+  .titel-mobile {
+    position: static;
+    visibility: visible;
+  }
+
+  .title {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+
+  .project_name h1 {
+    font-size: 10vw;
+    line-height: 11.2vw;
+    margin: -30px auto 0;
+  }
+
+  .project_name_menu h1 {
+    font-size: 10vw;
+    line-height: 10.2vw;
+    margin: 5vw auto 0;
+  }
+
+  .description {
+    margin: 17% auto 8%;
+  }
+
+  .tags {
+    font-size: 4vw;
+    line-height: 4.7vw;
+    letter-spacing: 0.25vw;
+  }
+
+  .text-project {
+    margin: 10% auto 5%;
+    font-size: 5.2vw;
+    line-height: 7vw;
+    column-count: 1;
+  }
+
+  .row.arrow {
+    /* Esto no funciona, lo que quiero es que se quede quieto en el fondo */
+    top: 50vw;
+  }
+
+  .next, .prev {
+    display: inline;
+    height: 15vw;
+  }
+}
