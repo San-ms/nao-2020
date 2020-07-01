@@ -191,6 +191,7 @@ width: 72.25%;
 /* % del container */
 margin: 5% auto 5%;
 position: sticky;
+position: -webkit-sticky;
 bottom: 15vh;
 text-align: center;
 }
@@ -297,6 +298,7 @@ text-align: center;
   /* % del container */
   margin: 8% auto 0;
   position: sticky;
+  position: -webkit-sticky;
   bottom: 6vh;
   text-align: center;
   }
