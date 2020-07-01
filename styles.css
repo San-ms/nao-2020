@@ -166,10 +166,11 @@ h1 {
 }
 
 .rights {
-  margin: 4vh auto 15px;
+  font-size: 2.2vh;
+  margin: 4vh auto 20px;
   text-align: center;
   justify-content: center;
-  font-size: 3vh;
+
 }
 
 
@@ -177,14 +178,18 @@ h1 {
 /* PAGINA PROYECTOS */
 
   /* DESCRIPCION PROYECTO */
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .projects-desc {
 width: 72.25%;
 /* % del container */
 margin: 5% auto 5%;
-position: fixed;
-top: 0;
-left: 6.1vw;
-right: 6.1vw;
+position: sticky;
+bottom: 60px;
 text-align: center;
 }
 
@@ -201,6 +206,7 @@ text-align: center;
     line-height: 1.7vw;
     letter-spacing: 0.25vw;
     font-variant: small-caps;
+
   }
 
 /* IMAGES PROYECTO */
@@ -209,16 +215,11 @@ text-align: center;
   width: 85%;
   /* % del container */
   padding: 0;
-  margin: 600px auto auto;
-  position: relative;
-  justify-content: center;
+  margin: 650px auto auto;
 }
 
-/* .img-horizontal {
-  width: 100%;
-  margin-bottom: 40px;
-} */
-.img-vertical {
+
+.img-margin {
   display: inline;
   width: 100%;
   padding: 0;
