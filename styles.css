@@ -126,12 +126,18 @@ a, p {
 .container {
   height: 100%;
   width: 85%;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  padding: 0;
+  /* position: relative; */
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* padding: 0; */
+}
+.description {
+  width: 85%;
+  font-size: 3.8vw;
+  line-height: 4.1vw;
+  margin: 10% auto 5%;
+  text-align: left;
 }
 
 .main-text {
@@ -158,13 +164,7 @@ a, p {
   z-index: 1;
 }
 
-.description {
-  width: 85%;
-  font-size: 3.8vw;
-  line-height: 4.1vw;
-  margin: 10% auto 5%;
-  text-align: left;
-}
+
 
 .selected-works h2 {
   margin-top: 10px;
