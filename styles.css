@@ -69,14 +69,13 @@
 
 body, h1, h2, h3, a, p {
   color: #FF0202;
-  word-break: break-word;
 }
 
 a, p {
   font-family: "TimesDotRom";
 }
 
-div.row {
+.row {
   padding: 0;
   margin: 0;
 }
@@ -193,6 +192,13 @@ z-index: 1;
   font-style: italic;
   text-decoration: none;
   visibility: visible;
+}
+
+.rights {
+margin: 4vh auto 15px;
+  text-align: center;
+  justify-content: center;
+  font-size: 3vh;
 }
 
 .project_name h1 {
