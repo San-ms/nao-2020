@@ -119,10 +119,12 @@ h1 {
 
 .top {
   top: 0;
+  z-index: 1;
 }
 
 .foot {
   bottom: 0;
+  z-index: 2;
 }
 
 .top, .foot {
@@ -179,7 +181,7 @@ h1 {
 
   /* DESCRIPCION PROYECTO */
 
-.container {
+.container-projects {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -189,7 +191,7 @@ width: 72.25%;
 /* % del container */
 margin: 5% auto 5%;
 position: sticky;
-bottom: 60px;
+bottom: 15vh;
 text-align: center;
 }
 
@@ -199,6 +201,7 @@ text-align: center;
     font-size: 2vw;
     line-height: 2.3vw;
     column-count: 2;
+    column-gap: 40px;
   }
 
   .tags {
@@ -215,9 +218,8 @@ text-align: center;
   width: 85%;
   /* % del container */
   padding: 0;
-  margin: 650px auto auto;
+  margin: 1000px auto 0;
 }
-
 
 .img-margin {
   display: inline;
@@ -226,11 +228,10 @@ text-align: center;
   margin-bottom: 40px;
 }
 
-
-
 .next, .prev {
   display: inline;
-  height: 8vw;
+  padding: 10px;
+  height: 31vh;
 }
 
 .row.arrow {
@@ -238,17 +239,17 @@ text-align: center;
   justify-content: space-between;
   /* Esto no funciona, lo que quiero es que se quede quieto en el fondo */
   position: fixed;
-  top: 30vw;
-  left: 0;
+  top: 54vh;
+  /* left: 0; */
 }
 
 .titel-mobile {
-  margin-top: 15px;
   position: absolute;
   visibility: hidden;
 }
 
 @media screen and (max-width: 590px) {
+
   .titel-mobile {
     position: static;
     visibility: visible;
@@ -264,24 +265,50 @@ text-align: center;
   }
 
   p {
-    font-size: 6vw;
-    line-height: 6.5vw;
+    font-size: 5vw;
+    line-height: 5.5vw;
   }
 
-  .project_name h1 {
+  .logo {
+    font-size: 4vw;
+  }
+
+  .rights {
+    font-size: 2vh;
+  }
+
+  .main-description {
+    margin: 8% auto 5%;
+
+  }
+
+  .project_name {
     font-size: 10vw;
     line-height: 11.2vw;
-    margin: -30px auto 0;
   }
 
-  .project_name_menu h1 {
-    font-size: 10vw;
-    line-height: 10.2vw;
-    margin: 5vw auto 0;
-  }
 
   .description {
     margin: 17% auto 8%;
+  }
+
+  .projects-desc {
+  width: 72.25%;
+  /* % del container */
+  margin: 8% auto 0;
+  position: sticky;
+  bottom: 6vh;
+  text-align: center;
+  }
+
+  .row.arrow {
+    /* position: fixed;
+    top: 80vh; */
+
+  }
+  .next, .prev {
+    display: inline;
+    height: 15vh;
   }
 
   .tags {
@@ -297,13 +324,13 @@ text-align: center;
     column-count: 1;
   }
 
-  .row.arrow {
-    /* Esto no funciona, lo que quiero es que se quede quieto en el fondo */
-    top: 50vw;
+  .galeria {
+    width: 85%;
+    /* % del container */
+    padding: 0;
+    margin: 1200px auto 0;
   }
 
-  .next, .prev {
-    display: inline;
-    height: 15vw;
-  }
+
+
 }
