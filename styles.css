@@ -69,6 +69,9 @@
 
 body, h1, h2, h3, a, p {
   color: #FF0202;
+  -webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		-o-font-smoothing: antialiased;
 }
 
 a, p {
@@ -119,12 +122,12 @@ h1 {
 
 .top {
   top: 0;
-  z-index: 3;
+  z-index: 4;
 }
 
 .foot {
   bottom: 0;
-  z-index: 2;
+  z-index:3;
 }
 
 .top, .foot {
@@ -195,6 +198,7 @@ position: sticky;
 position: -webkit-sticky;
 bottom: 15vh;
 text-align: center;
+z-index: 0;
 }
 
   .text-project {
@@ -203,6 +207,8 @@ text-align: center;
     font-size: 2vw;
     line-height: 2.3vw;
     column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    	-moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
   }
 
@@ -222,6 +228,7 @@ text-align: center;
   padding: 0;
   margin: 900px auto 0;
   z-index: 1;
+
 }
 
 .img-margin {
@@ -244,7 +251,7 @@ text-align: center;
   position: fixed;
   position: -webkit-fixed;
   top: 54vh;
-  /* left: 0; */
+  z-index: 2;
 }
 
 .titel-mobile {
@@ -252,6 +259,8 @@ text-align: center;
   position: -webkit-absolute;
   visibility: hidden;
 }
+
+            /* ________MEDIA QUERIES________  */
 
 @media screen and (max-width: 590px) {
 
@@ -271,8 +280,8 @@ text-align: center;
   }
 
   p {
-    font-size: 5vw;
-    line-height: 5.5vw;
+    font-size: 6vw;
+    line-height: 6.5vw;
   }
 
   .logo {
@@ -309,8 +318,8 @@ text-align: center;
   }
 
   .row.arrow {
-    /* position: fixed;
-    top: 80vh; */
+    position: fixed;
+    bottom: 20vh;
 
   }
   .next, .prev {
