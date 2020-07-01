@@ -75,6 +75,12 @@ a, p {
   font-family: "TimesDotRom";
 }
 
+h1 {
+  font-family: "SangBleuEmpire-Medium";
+  font-size: 9vw;
+    line-height: 9.2vw;
+}
+
 .row {
   padding: 0;
   margin: 0;
@@ -124,62 +130,29 @@ a, p {
 }
 
 .container {
-  height: 100%;
-  width: 85%;
-  /* position: relative; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
-  /* align-items: center; */
-  /* padding: 0; */
+  padding: 0;
 }
+
 .description {
   width: 85%;
   font-size: 3.8vw;
   line-height: 4.1vw;
-  margin: 10% auto 5%;
+  margin: 5% auto 5%;
   text-align: left;
 }
 
-.main-text {
-  height: 100%;
-  width: 85%;
-  padding: 50px 0 0;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 6.2vw;
-  right: 6.2vw;
-}
 
-.container-fluid.projects {
-  height: 100%;
-  width: 85%;
-  /* margin: auto; */
-  text-align: center;
-  align-items: center;
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-
-
-.selected-works h2 {
+.selected-works {
   margin-top: 10px;
   /* Como hacer para que no aparezca pegado arriba del browser sino a la altura de los botones (10px) */
 }
 
-.project_name_menu h1 {
+.project_name {
   display: inline-block;
-  font-size: 9vw;
-  font-family: "SangBleuEmpire-Medium";
-  line-height: 9.2vw;
   margin: 4vw auto 0;
 }
 
-.project_name_menu:hover {
+.menu:hover {
   font-style: italic;
   text-decoration: none;
   visibility: visible;
@@ -192,26 +165,41 @@ a, p {
   font-size: 3vh;
 }
 
-.project_name h1 {
-  display: inline-block;
-  font-size: 9vw;
-  font-family: "SangBleuEmpire-Medium";
-  line-height: 9.2vw;
-  margin: 4vw auto 0;
+
+.main-text {
+  width: 85%;
+  /* 85% del container */
+  margin: 5% auto 5%;
+  position: fixed;
+  top: 0;
+  left: 6.1vw;
+  right: 6.1vw;
 }
 
-.text-project {
-  /* Aqui se hace un espacio entre el titulo y el parrafo por las flechas */
-  position: relative;
-  display: block;
-  width: 100%;
-  float: left;
-  margin: 0 0 5%;
-  text-align: left;
-  font-size: 2vw;
-  line-height: 2.3vw;
-  column-count: 2;
-}
+  .projects {
+    width: 85%;
+    /* 85% del main-text */
+    text-align: center;
+    position: relative;
+  }
+
+  .text-project {
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 2vw;
+    line-height: 2.3vw;
+    column-count: 2;
+  }
+
+  .tags {
+    font-size: 1.6vw;
+    line-height: 1.7vw;
+    letter-spacing: 0.25vw;
+    font-variant: small-caps;
+  }
+
+
+
 
 .galeria {
   width: 90%;
@@ -231,12 +219,7 @@ a, p {
   margin-bottom: 40px;
 }
 
-.tags {
-  font-size: 1.6vw;
-  line-height: 1.7vw;
-  letter-spacing: 0.25vw;
-  font-variant: small-caps;
-}
+
 
 .next, .prev {
   display: inline;
