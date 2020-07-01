@@ -130,6 +130,7 @@ h1 {
 .top, .foot {
   padding-right: 40px;
   position: fixed;
+  position: -webkit-fixed;
   margin: 15px;
 }
 
@@ -240,12 +241,14 @@ text-align: center;
   justify-content: space-between;
   /* Esto no funciona, lo que quiero es que se quede quieto en el fondo */
   position: fixed;
+  position: -webkit-fixed;
   top: 54vh;
   /* left: 0; */
 }
 
 .titel-mobile {
   position: absolute;
+  position: -webkit-absolute;
   visibility: hidden;
 }
 
@@ -258,6 +261,7 @@ text-align: center;
 
   .title {
     position: absolute;
+    position: -webkit-absolute;
     visibility: hidden;
   }
 
