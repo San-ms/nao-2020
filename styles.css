@@ -156,8 +156,9 @@ h1 {
   text-align: left;
 }
 
-.selected-works {
-  margin-top: 10px;
+#selected-works {
+  display: inline-block;
+  margin: 5vh 0 5vh;
   /* Como hacer para que no aparezca pegado arriba del browser sino a la altura de los botones (10px) */
 }
 
@@ -198,7 +199,7 @@ h1 {
   margin: 5% auto 5%;
   position: sticky;
   position: -webkit-sticky;
-  bottom: 13vh;
+  bottom: 14vh;
   text-align: center;
   /* z-index: -4; */
 }
@@ -305,8 +306,8 @@ h1 {
     margin: 17% auto 5%;
   }
 
-  .project_name h1 {
-    margin: 0;
+  .project_name {
+    margin: 6vh 0;
     font-size: 12vw;
     line-height: 12.2vw;
   }
@@ -314,11 +315,9 @@ h1 {
   .projects-desc {
     width: 72.25%;
     /* % del container */
-    margin: 5% auto 0;
     position: sticky;
     position: -webkit-sticky;
     bottom: 10vh;
-    text-align: center;
   }
 
   .row.arrow {
