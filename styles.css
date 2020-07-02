@@ -132,12 +132,12 @@ h1 {
 
 .top {
   top: 0;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .foot {
   bottom: 0;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .top, .foot {
@@ -200,7 +200,7 @@ h1 {
   position: -webkit-sticky;
   bottom: 13vh;
   text-align: center;
-  z-index: -4;
+  /* z-index: -4; */
 }
 
 .text-project {
@@ -229,7 +229,7 @@ h1 {
   /* % del container */
   padding: 0;
   margin: 900px auto 0;
-  z-index: -3;
+  /* z-index: -3; */
 }
 
 .img-margin {
@@ -252,7 +252,7 @@ h1 {
   position: fixed;
   position: -webkit-fixed;
   top: 54vh;
-  z-index: -2;
+  /* z-index: -2; */
 }
 
 .titel-mobile {
