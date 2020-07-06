@@ -171,7 +171,6 @@ footer {
 }
 
 /* HOME */
-
 .main-description p {
   width: 85%;
   font-size: 3.1rem;
@@ -204,14 +203,13 @@ footer {
 }
 
 /* ------- IMAGENES PROYECTOS------- */
-
 .project-home-image {
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   mix-blend-mode: multiply;
   pointer-events: none;
-
   position: fixed;
+  display: inline-block;
   opacity: 0%;
   transition: 0.4s;
 }
@@ -219,34 +217,31 @@ footer {
 a.h-welcome:hover+.project-home-image {
   background-image: url('images/welcome1.png');
   top: 180px;
-  left: 250px;
-  height: 500px;
-  width: 800px;
+  left: 25%;
+  height: 60%;
+  width: 50%;
   opacity: 100%;
 }
 
 a.h-que:hover+.project-home-image {
   opacity: 100%;
-
   top: 150px;
-  left: 400px;
+  left: 34%;
   height: 500px;
-  width: 700px;
+  width: 50%;
   background-image: url('images/8.jpg');
 }
 
 a.h-la-imprenta:hover+.project-home-image {
   opacity: 100%;
   top: 50px;
-  left: 200px;
+  left: 10%;
   height: 680px;
   width: 450px;
   background-image: url('images/hogar.jpg');
 }
 
-
-
-        /* ------------PAGINA PROYECTOS---------------- */
+/* ------------PAGINA PROYECTOS---------------- */
 /* DESCRIPCION PROYECTO */
 .container-projects {
   display: flex;
