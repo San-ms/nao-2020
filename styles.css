@@ -216,7 +216,7 @@ footer {
   transition: 0.4s;
 }
 
-a.welcome:hover+.project-home-image {
+a.h-welcome:hover+.project-home-image {
   background-image: url('images/welcome1.png');
   top: 180px;
   left: 250px;
@@ -225,7 +225,7 @@ a.welcome:hover+.project-home-image {
   opacity: 100%;
 }
 
-a.que:hover+.project-home-image {
+a.h-que:hover+.project-home-image {
   opacity: 100%;
 
   top: 150px;
@@ -235,7 +235,7 @@ a.que:hover+.project-home-image {
   background-image: url('images/8.jpg');
 }
 
-a.la-imprenta:hover+.project-home-image {
+a.h-la-imprenta:hover+.project-home-image {
   opacity: 100%;
   top: 50px;
   left: 200px;
