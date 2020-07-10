@@ -85,6 +85,15 @@ body, h1, h2, h3, a, p {
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+ i {
+   font-style: italic;
+ }
+
+ span.versalitas {
+   font-variant: small-caps;
+   letter-spacing: 0.1rem;
+
+ }
 
 .cuerpo {
   max-width: 1366px;
@@ -276,7 +285,7 @@ text-indent: 3rem;
 .tags {
   font-size: 1.3rem;
   line-height: 1.5rem;
-  letter-spacing: 0.25vw;
+  letter-spacing: 0.3rem;
   font-variant: small-caps;
 }
 
@@ -304,6 +313,7 @@ text-indent: 3rem;
 
 /* modificar segun cada proyecto */
 .galeria.welcome {
+
   margin: 850px auto -550px;
 }
 
