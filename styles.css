@@ -85,15 +85,15 @@ body, h1, h2, h3, a, p {
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
- i {
-   font-style: italic;
- }
 
- span.versalitas {
-   font-variant: small-caps;
-   letter-spacing: 0.1rem;
+i {
+  font-style: italic;
+}
 
- }
+span.versalitas {
+  font-variant: small-caps;
+  letter-spacing: 0.1rem;
+}
 
 .cuerpo {
   max-width: 1366px;
@@ -116,6 +116,7 @@ p {
 }
 
 .foot-note {
+  margin-top: 2rem;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
@@ -279,7 +280,7 @@ a.h-la-imprenta:hover+.project-home-image {
 }
 
 .indent {
-text-indent: 3rem;
+  text-indent: 3rem;
 }
 
 .tags {
@@ -311,23 +312,49 @@ text-indent: 3rem;
   z-index: 1;
 }
 
-/* modificar segun cada proyecto */
+/*                 DESKTOP   modificar segun cada proyecto */
+/*                           Welcome */
 .galeria.welcome {
+  margin: 850px auto -550px;
+}
+.galeria.welcome-m {
+  display: none;
+}
+.galeria.welcome-s {
+  display: none;
+}
 
+/*                          miss */
+.galeria.miss {
   margin: 850px auto -550px;
 }
 
-/* modificar segun cada proyecto */
+.galeria.miss-s {
+  display: none;
+}
+
+/*                           Design */
+.galeria.design {
+  margin: 1300px auto -800px;
+}
+
+.galeria.design-m {
+  display: none;
+}
+
+.galeria.design-s {
+  display: none;
+}
+
+/*                           IMPRENTA */
 .galeria.imprenta {
   margin: 1150px auto -550px;
 }
 
-/* modificar segun cada proyecto */
+/*                           Que */
 .galeria.que {
   margin: 1250px auto -850px;
 }
-
-
 
 .img-margin {
   display: inline;
@@ -336,10 +363,11 @@ text-indent: 3rem;
   margin-bottom: 40px;
 }
 
-.titel-mobile {
-  position: absolute;
+.title-mobile {
+  /* position: absolute;
   position: -webkit-absolute;
-  visibility: hidden;
+  visibility: hidden; */
+  display: none;
 }
 
 /* ________MEDIA QUERIES IPAD HORIZONTAL________  */
@@ -364,15 +392,14 @@ text-indent: 3rem;
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
 @media screen and (max-width: 768px) {
-  .titel-mobile {
-    position: static;
-    visibility: visible;
+  .title-mobile {
+    /* position: static;
+    visibility: visible; */
+    display: block;
   }
 
   .title {
-    position: absolute;
-    position: -webkit-absolute;
-    visibility: hidden;
+    display: none;
   }
 
   .menu-b {
@@ -386,6 +413,10 @@ text-indent: 3rem;
   h1 {
     font-size: 5rem;
     line-height: 5.3rem;
+  }
+
+  .indent {
+    text-indent: 1.5rem;
   }
 
   footer {
@@ -434,9 +465,29 @@ text-indent: 3rem;
     width: 85%;
   }
 
+  /*                IPAD       modificar segun cada proyecto */
+  /*                         WELCOME */
   .galeria.welcome {
-    margin: 900px auto -800px;
-    /* modificar segun cada proyecto */
+    display: none;
+  }
+  .galeria.welcome-m {
+    margin: 1050px auto -900px;
+    display: block;
+  }
+
+  /*                         MISS  */
+  .galeria.miss {
+    margin: 1200px auto -1000px;
+  }
+
+  /*                         DESIGN */
+  .galeria.design {
+    display: none;
+  }
+
+  .galeria.design-m {
+    display: block;
+    margin: 1500px auto -1400px;
   }
 }
 
@@ -460,6 +511,12 @@ text-indent: 3rem;
     line-height: 1.6rem;
   }
 
+  .foot-note {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
   .rights p {
     font-size: 0.8rem;
   }
@@ -475,7 +532,7 @@ text-indent: 3rem;
 
   .projects-desc {
     margin: 15% auto 0%;
-    bottom: 33vh;
+    bottom: 12vh;
   }
 
   .text-project {
@@ -494,8 +551,36 @@ text-indent: 3rem;
     width: 90%;
   }
 
-  .galeria.welcome {
-    margin: 900px auto -850px;
-    /* modificar segun cada proyecto */
+  /*               modificar segun cada proyecto */
+
+
+  /*                         WELCOME */
+
+  .galeria.welcome-m {
+    display: none;
+  }
+  .galeria.welcome-s {
+    margin: 850px auto -550px;
+    display: block;
+  }
+
+  /*                         MISS  */
+  .galeria.miss {
+    display: none;
+  }
+
+  .galeria.miss-s {
+    display: block;
+    margin: 1250px auto -1200px;
+  }
+
+  /*                         DESIGN  */
+  .galeria.design-m {
+    display: none;
+  }
+
+  .galeria.design-s {
+    display: block;
+    margin: 1550px auto -1370px;
   }
 }
