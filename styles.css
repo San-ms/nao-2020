@@ -343,12 +343,12 @@ a.h-la-imprenta:hover+.project-home-image {
 .galeria.schweine {
   margin: 1020px auto -960px;
 }
-.galeria.schweine-m {
+/* .galeria.schweine-m {
   display: none;
 }
 .galeria.schweine-s {
   display: none;
-}
+} */
 
 
 /*                          miss */
@@ -507,12 +507,13 @@ a.h-la-imprenta:hover+.project-home-image {
 
   /*                           Schweine */
   .galeria.schweine {
-    display: none;
+    margin: 1350px auto -1250px;
+    /* display: none; */
   }
-  .galeria.schweine-m {
+  /* .galeria.schweine-m {
     display: block;
     margin: 1350px auto -1250px;
-  }
+  } */
 
 
 
@@ -618,13 +619,17 @@ a.h-la-imprenta:hover+.project-home-image {
   }
 
   /*                           Schweine */
+  .galeria.schweine {
+    margin: 1350px auto -1350px;
+  }
+  /*
   .galeria.schweine-m {
     display: none;
   }
   .galeria.schweine-s {
     display: block;
     margin: 1350px auto -1350px;
-  }
+  } */
 
 
   /*                         MISS  */
