@@ -306,7 +306,6 @@ a.h-la-imprenta:hover+.project-home-image {
   width: 8.2rem;
 }
 
-
 .title-mobile {
   display: none;
 }
@@ -330,33 +329,28 @@ a.h-la-imprenta:hover+.project-home-image {
 /*                 DESKTOP   modificar segun cada proyecto */
 /*                           Welcome */
 .galeria.welcome {
-  margin: 850px auto -550px;
+  margin: 800px auto -550px;
 }
 .galeria.welcome-m {
   display: none;
 }
-/* .galeria.welcome-s {
-  display: none;
-} */
+
 
 /*                           Schweine */
 .galeria.schweine {
-  margin: 1020px auto -960px;
+  margin: 1050px auto -960px;
 }
 .galeria.schweine-m {
   display: none;
 }
-/* .galeria.schweine-s {
-  display: none;
-} */
 
 
 /*                          miss */
 .galeria.miss {
-  margin: 800px auto -600px;
+  margin: 850px auto -550px;
 }
 
-.galeria.miss-s {
+.galeria.miss-m {
   display: none;
 }
 
@@ -369,9 +363,6 @@ a.h-la-imprenta:hover+.project-home-image {
   display: none;
 }
 
-.galeria.design-s {
-  display: none;
-}
 
 /*                           UNA Y UNA */
 .galeria.unayuna {
@@ -379,10 +370,6 @@ a.h-la-imprenta:hover+.project-home-image {
 }
 
 .galeria.unayuna-m {
-  display: none;
-}
-
-.galeria.unayuna-s {
   display: none;
 }
 
@@ -523,13 +510,9 @@ a.h-la-imprenta:hover+.project-home-image {
 
   /*                         DESIGN */
   .galeria.design {
-    display: none;
-  }
-
-  .galeria.design-m {
-    display: block;
     margin: 1500px auto -1400px;
   }
+
 
   /*                           UNA Y UNA */
   .galeria.unayuna {
@@ -538,7 +521,7 @@ a.h-la-imprenta:hover+.project-home-image {
 
   .galeria.unayuna-m {
     display: block;
-    margin: 1680px auto -1600px;
+    margin: 1820px auto -1650px;
   }
 
 
@@ -604,31 +587,18 @@ a.h-la-imprenta:hover+.project-home-image {
     width: 90%;
   }
 
-  /*               modificar segun cada proyecto */
+  /*             MOBILE  modificar segun cada proyecto */
 
 
   /*                         WELCOME */
-
-  /* .galeria.welcome-m {
-    display: none;
-  } */
   .galeria.welcome-m {
-    margin: 850px auto -550px;
-    /* display: block; */
+    margin: 1150px auto -1150px;
   }
 
   /*                           Schweine */
   .galeria.schweine-m {
-    /* display: block; */
     margin: 1350px auto -1350px;
   }
-  /* .galeria.schweine-m {
-    display: none;
-  }
-  .galeria.schweine-s {
-    display: block;
-    margin: 1350px auto -1350px;
-  } */
 
 
   /*                         MISS  */
@@ -636,29 +606,27 @@ a.h-la-imprenta:hover+.project-home-image {
     display: none;
   }
 
-  .galeria.miss-s {
+  .galeria.miss-m {
     display: block;
     margin: 1250px auto -1200px;
   }
 
   /*                         DESIGN  */
-  .galeria.design-m {
+
+  .galeria.design {
     display: none;
   }
 
-  .galeria.design-s {
+  .galeria.design-m {
     display: block;
-    margin: 1550px auto -1370px;
+    margin: 1600px auto -1570px;
   }
 
   /*                           UNA Y UNA */
-  .galeria.unayuna-m {
-    display: none;
-  }
 
-  .galeria.unayuna-s {
+  .galeria.unayuna-m {
     display: block;
-    margin: 1900px auto -1900px;
+    margin: 2100px auto -2100px;
   }
 
 }
