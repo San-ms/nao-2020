@@ -305,12 +305,26 @@ a.h-la-imprenta:hover+.project-home-image {
   width: 8.2rem;
 }
 
+
+.title-mobile {
+  display: none;
+}
+
+
 /* IMAGES PROYECTO */
 .galeria {
   width: 85%;
   padding: 0;
   z-index: 1;
 }
+
+.img-margin {
+  display: inline;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
 
 /*                 DESKTOP   modificar segun cada proyecto */
 /*                           Welcome */
@@ -324,9 +338,21 @@ a.h-la-imprenta:hover+.project-home-image {
   display: none;
 }
 
+/*                           Schweine */
+.galeria.schweine {
+  margin: 1020px auto -960px;
+}
+.galeria.schweine-m {
+  display: none;
+}
+.galeria.schweine-s {
+  display: none;
+}
+
+
 /*                          miss */
 .galeria.miss {
-  margin: 850px auto -550px;
+  margin: 800px auto -600px;
 }
 
 .galeria.miss-s {
@@ -346,6 +372,20 @@ a.h-la-imprenta:hover+.project-home-image {
   display: none;
 }
 
+/*                           UNA Y UNA */
+.galeria.unayuna {
+  margin: 1250px auto -1100px;
+}
+
+.galeria.unayuna-m {
+  display: none;
+}
+
+.galeria.unayuna-s {
+  display: none;
+}
+
+
 /*                           IMPRENTA */
 .galeria.imprenta {
   margin: 1150px auto -550px;
@@ -356,19 +396,8 @@ a.h-la-imprenta:hover+.project-home-image {
   margin: 1250px auto -850px;
 }
 
-.img-margin {
-  display: inline;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 40px;
-}
 
-.title-mobile {
-  /* position: absolute;
-  position: -webkit-absolute;
-  visibility: hidden; */
-  display: none;
-}
+
 
 /* ________MEDIA QUERIES IPAD HORIZONTAL________  */
 @media screen and (max-width: 1024px) {
@@ -475,6 +504,17 @@ a.h-la-imprenta:hover+.project-home-image {
     display: block;
   }
 
+  /*                           Schweine */
+  .galeria.schweine {
+    display: none;
+  }
+  .galeria.schweine-m {
+    display: block;
+    margin: 1350px auto -1250px;
+  }
+
+
+
   /*                         MISS  */
   .galeria.miss {
     margin: 1200px auto -1000px;
@@ -489,6 +529,18 @@ a.h-la-imprenta:hover+.project-home-image {
     display: block;
     margin: 1500px auto -1400px;
   }
+
+  /*                           UNA Y UNA */
+  .galeria.unayuna {
+    display: none;
+  }
+
+  .galeria.unayuna-m {
+    display: block;
+    margin: 1680px auto -1600px;
+  }
+
+
 }
 
 /* ________MEDIA QUERIES IPHONE________  */
@@ -564,6 +616,16 @@ a.h-la-imprenta:hover+.project-home-image {
     display: block;
   }
 
+  /*                           Schweine */
+  .galeria.schweine-m {
+    display: none;
+  }
+  .galeria.schweine-s {
+    display: block;
+    margin: 1350px auto -1350px;
+  }
+
+
   /*                         MISS  */
   .galeria.miss {
     display: none;
@@ -583,4 +645,15 @@ a.h-la-imprenta:hover+.project-home-image {
     display: block;
     margin: 1550px auto -1370px;
   }
+
+  /*                           UNA Y UNA */
+  .galeria.unayuna-m {
+    display: none;
+  }
+
+  .galeria.unayuna-s {
+    display: block;
+    margin: 1900px auto -1900px;
+  }
+
 }
