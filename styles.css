@@ -270,7 +270,7 @@ a.h-la-imprenta:hover+.project-home-image {
   position: -webkit-sticky;
   bottom: 14vh;
   text-align: center;
-  z-index: 0;
+  z-index: -1;
 }
 
 .text-project {
