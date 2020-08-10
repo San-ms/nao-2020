@@ -78,7 +78,7 @@
   padding: 0;
 }
 
-body, h1, h2, h3, a, p {
+body, h1, h2, a, p {
   color: red;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -97,7 +97,12 @@ i {
 
 span.versalitas {
   font-variant: small-caps;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.bold-cv {
+  font-size: 8rem;
+  line-height: 8.4rem;
 }
 
 .cuerpo {
@@ -280,6 +285,87 @@ a.h-la-imprenta:hover+.project-home-image {
   background-image: url('images/hogar.jpg');
 }
 
+/* ------------PAGINA ABOUT---------------- */
+
+body.about, .about h2, .about a, .about p {
+  background: red;
+  color: white;
+}
+
+.about-text {
+  width: 85%;
+  margin: 50px auto 5%;
+}
+
+.about-text p {
+  color: white;
+  font-size: 3.1rem;
+  line-height: 3.4rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.about .logo:hover {
+  color: white;
+}
+
+.about ::selection {
+  /* body ::selection { */
+  background-color: red;
+  color: red;
+}
+
+.about a.links-about {
+  text-decoration: underline;
+}
+
+.about a.links-about:hover {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.about h1{
+  color: white;
+}
+
+div.cv p {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+ }
+
+ h3.cv-tit {
+   color: white;
+   font-family: "SangBleuEmpire-Medium";
+   font-size: 1.5rem;
+   line-height: 1.9rem;
+ }
+
+ p.cv-text {
+   margin: 0;
+ }
+
+ div.item-cv {
+   margin-top: 1.8rem;
+ }
+
+ .cv {
+   margin: 2rem 0;
+ }
+
+ .about .menu-b {
+   text-align: center;
+ }
+
+ hr {
+   text-align: center;
+  border-color: white;
+  border-style: none;
+  border-top-style: solid;
+  border-width: 2px;
+  width: 100%;
+}
+
+
 /* ------------PAGINA MISC---------------- */
 .container-fluid.slideshow {
   justify-content: center;
@@ -455,6 +541,10 @@ body.cursor-misc {
 
   .galeria {
     width: 80%;
+  }
+
+  .mobile {
+    display: none;
   }
 }
 
