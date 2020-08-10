@@ -287,8 +287,12 @@ a.h-la-imprenta:hover+.project-home-image {
 
 /* ------------PAGINA ABOUT---------------- */
 
-body.about, .about h2, .about a, .about p {
+body.about {
   background: red;
+  color: white;
+}
+
+.about h1, .about h2, .about a, .about p {
   color: white;
 }
 
@@ -310,7 +314,6 @@ body.about, .about h2, .about a, .about p {
 }
 
 .about ::selection {
-  /* body ::selection { */
   background-color: red;
   color: red;
 }
@@ -324,9 +327,6 @@ body.about, .about h2, .about a, .about p {
   font-style: italic;
 }
 
-.about h1{
-  color: white;
-}
 
 div.cv p {
   font-size: 1.1rem;
@@ -352,9 +352,6 @@ div.cv p {
    margin: 2rem 0;
  }
 
- .about .menu-b {
-   text-align: center;
- }
 
  hr {
    text-align: center;
@@ -586,6 +583,36 @@ body.cursor-misc {
     line-height: 2.8rem;
   }
 
+  .about .about-text p {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+
+  /* div.cv p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+   }
+
+   h3.cv-tit {
+     color: white;
+     font-family: "SangBleuEmpire-Medium";
+     font-size: 1.5rem;
+     line-height: 1.9rem;
+   }
+
+   p.cv-text {
+     margin: 0;
+   }
+
+   div.item-cv {
+     margin-top: 1.8rem;
+   }
+
+   .cv {
+     margin: 2rem 0;
+   } */
+
+
   .project-menu {
     margin-bottom: 0rem;
   }
@@ -699,6 +726,26 @@ body.cursor-misc {
     font-size: 1.8rem;
     line-height: 2.1rem;
   }
+
+  .about .about-text p {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+  div.cv {
+    font-size: 1rem;
+    line-height: 1.2rem;
+   }
+
+   h3.cv-tit {
+     font-size: 1.8rem;
+     line-height: 2.1rem;
+   }
+
+
+
+
+
 
   .project_name {
     margin: 0.6rem 0;
