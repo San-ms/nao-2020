@@ -79,11 +79,16 @@
 }
 
 body, h1, h2, h3, a, p {
-  color: #FF0202;
+  color: red;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+body ::selection {
+  background-color: white;
+  color: white;
 }
 
 i {
@@ -152,7 +157,7 @@ p {
 
 .logo:hover {
   font-style: normal;
-  color: #FF0202;
+  color: red;
   text-decoration: none;
 }
 
@@ -185,7 +190,26 @@ footer {
   font-size: 1rem;
 }
 
-/* HOME */
+/* ---------------------- HOME ----------------- */
+/* -------- UNDER CNSTRUTION */
+.construction {
+  margin: 45px auto 0;
+  padding: 8px 0;
+  width: 85%;
+  background-color: red;
+  text-align: center;
+  display: block;
+}
+
+.construction p {
+  font-family: "SangBleuEmpire-Medium";
+  font-size: 1rem;
+  font-style: normal;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+/* -------- */
 .main-description p {
   width: 85%;
   font-size: 3.1rem;
@@ -256,6 +280,40 @@ a.h-la-imprenta:hover+.project-home-image {
   background-image: url('images/hogar.jpg');
 }
 
+/* ------------PAGINA MISC---------------- */
+.container-fluid.slideshow {
+  justify-content: center;
+  margin-bottom: 2%;
+  height: 100vh;
+  overflow: hidden;
+  /* cursor: pointer; */
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  height: 100vh;
+  /* height: 100vh; */
+  z-index: 0;
+}
+
+.slideshow img:first-child {
+  z-index: 1;
+}
+
+/* _______Cursor Cambiar---_____ */
+body.cursor-misc {
+  cursor: url('images/cursors/cursor-1.png')0 0, pointer;
+}
+
+.div-cursor-misc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  cursor: url('images/cursors/cursor-1.png')0 0, pointer;
+  /* z-index: -1; */
+}
+
 /* ------------PAGINA PROYECTOS---------------- */
 /* DESCRIPCION PROYECTO */
 .container-projects {
@@ -310,7 +368,6 @@ a.h-la-imprenta:hover+.project-home-image {
   display: none;
 }
 
-
 /* IMAGES PROYECTO */
 .galeria {
   width: 85%;
@@ -325,25 +382,24 @@ a.h-la-imprenta:hover+.project-home-image {
   margin-bottom: 40px;
 }
 
-
 /*                 DESKTOP   modificar segun cada proyecto */
 /*                           Welcome */
 .galeria.welcome {
   margin: 800px auto -550px;
 }
+
 .galeria.welcome-m {
   display: none;
 }
-
 
 /*                           Schweine */
 .galeria.schweine {
   margin: 1050px auto -960px;
 }
+
 .galeria.schweine-m {
   display: none;
 }
-
 
 /*                          miss */
 .galeria.miss {
@@ -363,7 +419,6 @@ a.h-la-imprenta:hover+.project-home-image {
   display: none;
 }
 
-
 /*                           UNA Y UNA */
 .galeria.unayuna {
   margin: 1250px auto -1100px;
@@ -372,7 +427,6 @@ a.h-la-imprenta:hover+.project-home-image {
 .galeria.unayuna-m {
   display: none;
 }
-
 
 /*                           IMPRENTA */
 .galeria.imprenta {
@@ -383,9 +437,6 @@ a.h-la-imprenta:hover+.project-home-image {
 .galeria.que {
   margin: 1250px auto -850px;
 }
-
-
-
 
 /* ________MEDIA QUERIES IPAD HORIZONTAL________  */
 @media screen and (max-width: 1024px) {
@@ -487,6 +538,7 @@ a.h-la-imprenta:hover+.project-home-image {
   .galeria.welcome {
     display: none;
   }
+
   .galeria.welcome-m {
     margin: 1050px auto -900px;
     display: block;
@@ -496,12 +548,11 @@ a.h-la-imprenta:hover+.project-home-image {
   .galeria.schweine {
     display: none;
   }
+
   .galeria.schweine-m {
     display: block;
     margin: 1350px auto -1250px;
   }
-
-
 
   /*                         MISS  */
   .galeria.miss {
@@ -513,7 +564,6 @@ a.h-la-imprenta:hover+.project-home-image {
     margin: 1500px auto -1400px;
   }
 
-
   /*                           UNA Y UNA */
   .galeria.unayuna {
     display: none;
@@ -523,8 +573,6 @@ a.h-la-imprenta:hover+.project-home-image {
     display: block;
     margin: 1820px auto -1650px;
   }
-
-
 }
 
 /* ________MEDIA QUERIES IPHONE________  */
@@ -588,8 +636,6 @@ a.h-la-imprenta:hover+.project-home-image {
   }
 
   /*             MOBILE  modificar segun cada proyecto */
-
-
   /*                         WELCOME */
   .galeria.welcome-m {
     margin: 1150px auto -1150px;
@@ -599,7 +645,6 @@ a.h-la-imprenta:hover+.project-home-image {
   .galeria.schweine-m {
     margin: 1350px auto -1350px;
   }
-
 
   /*                         MISS  */
   .galeria.miss {
@@ -612,7 +657,6 @@ a.h-la-imprenta:hover+.project-home-image {
   }
 
   /*                         DESIGN  */
-
   .galeria.design {
     display: none;
   }
@@ -623,10 +667,8 @@ a.h-la-imprenta:hover+.project-home-image {
   }
 
   /*                           UNA Y UNA */
-
   .galeria.unayuna-m {
     display: block;
     margin: 2100px auto -2100px;
   }
-
 }
