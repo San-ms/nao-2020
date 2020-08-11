@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: SangBleuEmpire-Regular;
   font-weight: 200;
@@ -362,6 +363,14 @@ div.cv p {
   width: 100%;
 }
 
+.cartel-tit {
+  color: red;
+  font-family: "SangBleuEmpire-Medium";
+  /* text-transform: uppercase; */
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
+
 
 /* ------------PAGINA MISC---------------- */
 .container-fluid.slideshow {
@@ -511,10 +520,6 @@ body.cursor-misc {
   display: none;
 }
 
-/*                           IMPRENTA */
-.galeria.imprenta {
-  margin: 1150px auto -550px;
-}
 
 /*                           Que */
 .galeria.que {
@@ -540,9 +545,9 @@ body.cursor-misc {
     width: 80%;
   }
 
-  .mobile {
+  /* .mobile {
     display: none;
-  }
+  } */
 }
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
