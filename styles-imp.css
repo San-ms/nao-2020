@@ -1,0 +1,66 @@
+
+
+/* ----------STYLES IMPRENTA-------- */
+
+body {
+  height: 655vh;
+}
+
+div.fondo {
+  position: fixed;
+  /* top: -100vh; */
+  top: 5vh;
+  left: 100vw;
+  /* left: 100vw; */
+  width: 900vh;
+  height: 80vh;
+  z-index: 1;
+  justify-content: flex-start;
+}
+
+/*                           IMPRENTA */
+
+.row.row-imp {
+  justify-content: flex-start;
+}
+
+.galeria.imprenta {
+  margin-left: 400px;
+}
+
+.cartel p {
+  margin-top: 0;
+}
+
+.cartel {
+  width: 450px;
+  display: inline;
+}
+
+.text-cartel {
+  background-color: white;
+  width: 420px;
+  margin-left: 40px;
+  margin-right: 180px;
+  display: inline;
+}
+
+.img-imp {
+  width: 450px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+/* ________MEDIA QUERIES IPAD VERTICAL________  */
+@media screen and (max-width: 768px) {
+
+}
+
+/* ________MEDIA QUERIES IPHONE________  */
+@media screen and (max-width: 590px) {
+
+}
