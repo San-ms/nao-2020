@@ -1,59 +1,27 @@
-
 @font-face {
-  font-family: SangBleuEmpire-Regular;
-  font-weight: 200;
-  src: url('fonts/SangBleuEmpire-Regular.otf');
+  font-family: 'SangBleuEmpire-Medium';
+  src: url('fonts/SangBleuEmpire-Medium-WebS.eot');
+  src: url('fonts/SangBleuEmpire-Medium-WebS.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SangBleuEmpire-Medium-WebS.woff2') format('woff2'),
+    url('fonts/SangBleuEmpire-Medium-WebS.woff') format('woff'),
+    url('fonts/SangBleuEmpire-Medium-WebS.ttf') format('truetype'),
+    url('fonts/SangBleuEmpire-Medium-WebS.svg') format('svg');
+  font-style: normal;
   text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-RegularItalic;
-  font-style: italic;
-  src: url('fonts/SangBleuEmpire-RegularItalic.otf');
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-Medium;
   font-weight: 400;
-  src: url('fonts/SangBleuEmpire-Medium.otf');
-  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: SangBleuEmpire-Medium;
+  font-family: 'SangBleuEmpire-Medium';
+  src: url('fonts/SangBleuEmpire-MediumItalic-WebXL.eot');
+  src: url('fonts/SangBleuEmpire-MediumItalic-WebXL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebXL.woff2') format('woff2'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebXL.woff') format('woff'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebXL.ttf') format('truetype'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebXL.svg') format('svg');
   font-style: italic;
-  src: url('fonts/SangBleuEmpire-MediumItalic.otf');
   text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-Bold;
-  font-weight: 600;
-  src: url('fonts/SangBleuEmpire-Bold.otf');
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-Bold;
-  font-weight: 600;
-  font-style: italic;
-  src: url('fonts/SangBleuEmpire-BoldItalic.otf');
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-Black;
-  font-weight: 800;
-  src: url('fonts/SangBleuEmpire-Black.otf');
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: SangBleuEmpire-Black;
-  font-style: italic;
-  src: url('fonts/SangBleuEmpire-BlackItalic.otf');
-  text-rendering: optimizeLegibility;
+  font-weight: 400;
 }
 
 @font-face {
@@ -63,20 +31,9 @@
 }
 
 @font-face {
-  font-family: TimesDotBold;
-  src: url('fonts/TimesDotBol.otf');
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
   font-family: TimesDotItalic;
   src: url('fonts/TimesDotItalic.otf');
   text-rendering: optimizeLegibility;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body, h1, h2, a, p {
@@ -286,7 +243,6 @@ a.h-la-imprenta:hover+.project-home-image {
 }
 
 /* ------------PAGINA ABOUT---------------- */
-
 body.about {
   background: red;
   color: white;
@@ -327,34 +283,32 @@ body.about {
   font-style: italic;
 }
 
-
 div.cv p {
   font-size: 1.1rem;
   line-height: 1.3rem;
- }
+}
 
- h3.cv-tit {
-   color: white;
-   font-family: "SangBleuEmpire-Medium";
-   font-size: 1.5rem;
-   line-height: 1.9rem;
- }
+h3.cv-tit {
+  color: white;
+  font-family: "SangBleuEmpire-Medium";
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
 
- p.cv-text {
-   margin: 0;
- }
+p.cv-text {
+  margin: 0;
+}
 
- div.item-cv {
-   margin-top: 1.8rem;
- }
+div.item-cv {
+  margin-top: 1.8rem;
+}
 
- .cv {
-   margin: 2rem 0;
- }
+.cv {
+  margin: 2rem 0;
+}
 
-
- hr {
-   text-align: center;
+hr {
+  text-align: center;
   border-color: white;
   border-style: none;
   border-top-style: solid;
@@ -370,7 +324,6 @@ div.cv p {
   line-height: 1.9rem;
 }
 
-
 /* ------------PAGINA MISC---------------- */
 .container-fluid.slideshow {
   justify-content: center;
@@ -383,7 +336,7 @@ div.cv p {
 
 .slideshow img {
   position: absolute;
-  height: 100vh;
+  height: 105vh;
   /* height: 100vh; */
   z-index: 0;
 }
@@ -392,18 +345,6 @@ div.cv p {
   z-index: 1;
 }
 
-/* _______Cursor Cambiar---_____ */
-body.cursor-misc {
-  cursor: url('images/cursors/cursor-1.png')0 0, pointer;
-}
-
-.div-cursor-misc {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  cursor: url('images/cursors/cursor-1.png')0 0, pointer;
-  /* z-index: -1; */
-}
 
 /* ------------PAGINA PROYECTOS---------------- */
 /* DESCRIPCION PROYECTO */
@@ -519,7 +460,6 @@ body.cursor-misc {
   display: none;
 }
 
-
 /*                           Que */
 .galeria.que {
   margin: 1250px auto -850px;
@@ -615,8 +555,6 @@ body.cursor-misc {
    .cv {
      margin: 2rem 0;
    } */
-
-
   .project-menu {
     margin-bottom: 0rem;
   }
@@ -739,17 +677,12 @@ body.cursor-misc {
   div.cv {
     font-size: 1rem;
     line-height: 1.2rem;
-   }
+  }
 
-   h3.cv-tit {
-     font-size: 1.8rem;
-     line-height: 2.1rem;
-   }
-
-
-
-
-
+  h3.cv-tit {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
 
   .project_name {
     margin: 0.6rem 0;
