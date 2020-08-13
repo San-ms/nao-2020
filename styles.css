@@ -430,6 +430,9 @@ hr {
   margin-bottom: 40px;
 }
 
+
+
+
 /*                 DESKTOP   modificar segun cada proyecto */
 /*                           Welcome */
 .galeria.welcome {
@@ -439,6 +442,8 @@ hr {
 .galeria.welcome-m {
   display: none;
 }
+
+
 
 /*                           Schweine */
 .galeria.schweine {
@@ -500,12 +505,14 @@ hr {
     width: 80%;
   }
 
+
   /* .mobile {
     display: none;
   } */
 }
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
+
 @media screen and (max-width: 768px) {
   .title-mobile {
     /* position: static;
@@ -548,29 +555,6 @@ hr {
     line-height: 2.8rem;
   }
 
-  /* div.cv p {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-   }
-
-   h3.cv-tit {
-     color: white;
-     font-family: "SangBleuEmpire-Medium";
-     font-size: 1.5rem;
-     line-height: 1.9rem;
-   }
-
-   p.cv-text {
-     margin: 0;
-   }
-
-   div.item-cv {
-     margin-top: 1.8rem;
-   }
-
-   .cv {
-     margin: 2rem 0;
-   } */
   .project-menu {
     margin-bottom: 0rem;
   }
@@ -703,6 +687,15 @@ hr {
   .project_name {
     margin: 0.6rem 0;
   }
+
+  .available {
+    margin: 3rem auto;
+    color: white;
+    font-family: "SangBleuEmpire-Medium";
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
 
   .projects-desc {
     margin: 15% auto 0%;
