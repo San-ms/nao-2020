@@ -15,9 +15,21 @@
     height: 80vh;
     z-index: 1;
     justify-content: flex-start;
+
   }
 
+  footer {
+    display: none;
+  }
+
+
+
   /*                           IMPRENTA */
+
+  .galeria.imprenta-m {
+    display: none;
+  }
+
 
   .row.row-imp {
     justify-content: flex-start;
@@ -72,10 +84,57 @@
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
 @media screen and (max-width: 768px) {
+  /*                           Imprenta */
+
+  body {
+    height:auto;
+  }
+
+  .fondo {
+    display: none;
+  }
+
+  footer {
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    justify-content: center;
+  }
+.carteles {
+  background-color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+  .img-margin {
+    display: block;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+
+  .text-cartel-m {
+    word-wrap: break-word;
+    text-align: left;
+    padding: 40px 20px 50px;
+    display: block;
+  }
+
+
+  .galeria.imprenta-m {
+    margin: 1150px auto -900px;
+    display: inline-block;
+  }
+
+
 
 }
 
 /* ________MEDIA QUERIES IPHONE________  */
 @media screen and (max-width: 590px) {
+
+  .galeria.imprenta-m {
+    margin: 1150px auto -1000px;
+  }
 
 }
