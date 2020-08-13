@@ -18,7 +18,7 @@
 
   }
 
-  footer {
+  footer.mobile-imp {
     display: none;
   }
 
@@ -79,6 +79,14 @@
 
 @media screen and (max-width: 1024px) {
 
+  body {
+    height: 750vh;
+  }
+
+  .fondo {
+    width: 900vh;
+    height: 80vh;
+  }
 
 }
 
@@ -94,12 +102,13 @@
     display: none;
   }
 
-  footer {
+  footer.mobile-imp{
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
     text-align: center;
     justify-content: center;
   }
+
 .carteles {
   background-color: white;
   margin-bottom: 50px;
@@ -122,7 +131,7 @@
 
 
   .galeria.imprenta-m {
-    margin: 1150px auto -900px;
+    margin: 1200px auto -1100px;
     display: inline-block;
   }
 
@@ -134,7 +143,7 @@
 @media screen and (max-width: 590px) {
 
   .galeria.imprenta-m {
-    margin: 1150px auto -1000px;
+    margin: 1150px auto -1100px;
   }
 
 }
