@@ -6,21 +6,21 @@
     url('fonts/SangBleuEmpire-Medium-WebS.woff') format('woff'),
     url('fonts/SangBleuEmpire-Medium-WebS.ttf') format('truetype'),
     url('fonts/SangBleuEmpire-Medium-WebS.svg') format('svg');
-  font-style: normal;
+font-style: normal;
   text-rendering: optimizeLegibility;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'SangBleuEmpire-Medium';
-  src: url('fonts/SangBleuEmpire-MediumItalic-WebXL.eot');
-  src: url('fonts/SangBleuEmpire-MediumItalic-WebXL.eot?#iefix') format('embedded-opentype'),
-    url('fonts/SangBleuEmpire-MediumItalic-WebXL.woff2') format('woff2'),
-    url('fonts/SangBleuEmpire-MediumItalic-WebXL.woff') format('woff'),
-    url('fonts/SangBleuEmpire-MediumItalic-WebXL.ttf') format('truetype'),
-    url('fonts/SangBleuEmpire-MediumItalic-WebXL.svg') format('svg');
-  font-style: italic;
+  font-family: 'SangBleuEmpire-MediumItalic';
+  src: url('fonts/SangBleuEmpire-MediumItalic-WebS.eot');
+  src: url('fonts/SangBleuEmpire-MediumItalic-WebS.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebS.woff2') format('woff2'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebS.woff') format('woff'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebS.ttf') format('truetype'),
+    url('fonts/SangBleuEmpire-MediumItalic-WebS.svg') format('svg');
   text-rendering: optimizeLegibility;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -36,12 +36,17 @@
   text-rendering: optimizeLegibility;
 }
 
+
 body, h1, h2, a, p {
   color: red;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 body ::selection {
@@ -52,7 +57,7 @@ i {
   font-style: italic;
 }
 
-span.versalitas {
+.versalitas {
   font-variant: small-caps;
   letter-spacing: 0.2rem;
 }
@@ -73,6 +78,7 @@ a, p {
 
 h1 {
   font-family: "SangBleuEmpire-Medium";
+  font-style: normal;
   font-size: 7.7rem;
   line-height: 8.3rem;
 }
@@ -112,13 +118,13 @@ p {
 }
 
 .logo {
-  font-family: "SangBleuEmpire-Medium";
+  font-family: 'SangBleuEmpire-MediumItalic';
   font-size: 1.5rem;
-  font-style: italic;
 }
 
 .logo:hover {
-  font-style: normal;
+  font-family:'SangBleuEmpire-Medium';
+  /* font-style: normal; */
   color: red;
   text-decoration: none;
 }
@@ -197,10 +203,10 @@ footer {
   justify-content: center;
 }
 
-.menu:hover {
-  font-style: italic;
+h1:hover {
+  font-family: "SangBleuEmpire-MediumItalic";
   text-decoration: none;
-  visibility: visible;
+  /* visibility: visible; */
 }
 
 /* ------- IMAGENES PROYECTOS------- */
@@ -215,7 +221,7 @@ footer {
   transition: 0.4s;
 }
 
-a.h-welcome:hover+.project-home-image {
+.h-welcome:hover+.project-home-image {
   background-image: url('images/welcome1.png');
   top: 180px;
   left: 25%;
@@ -224,7 +230,7 @@ a.h-welcome:hover+.project-home-image {
   opacity: 100%;
 }
 
-a.h-que:hover+.project-home-image {
+.h-que:hover+.project-home-image {
   opacity: 100%;
   top: 150px;
   left: 34%;
@@ -233,7 +239,7 @@ a.h-que:hover+.project-home-image {
   background-image: url('images/8.jpg');
 }
 
-a.h-la-imprenta:hover+.project-home-image {
+.h-la-imprenta:hover+.project-home-image {
   opacity: 100%;
   top: 50px;
   left: 10%;
@@ -245,20 +251,21 @@ a.h-la-imprenta:hover+.project-home-image {
 /* ------------PAGINA ABOUT---------------- */
 body.about {
   background: red;
+}
+
+.about h2, .about a, .about p {
   color: white;
 }
 
-.about h1, .about h2, .about a, .about p {
-  color: white;
+.about .cuerpo {
+  width: 85%;
 }
 
 .about-text {
-  width: 85%;
   margin: 50px auto 5%;
 }
 
-.about-text p {
-  color: white;
+.about-text p{
   font-size: 3.1rem;
   line-height: 3.4rem;
   margin-top: 2rem;
@@ -288,24 +295,33 @@ div.cv p {
   line-height: 1.3rem;
 }
 
-h3.cv-tit {
+.cv-tit {
   color: white;
   font-family: "SangBleuEmpire-Medium";
   font-size: 1.5rem;
   line-height: 1.9rem;
 }
 
-p.cv-text {
-  margin: 0;
+.available {
+  margin: 3rem auto;
+  color: white;
+  font-family: "SangBleuEmpire-Medium";
+  font-size: 5rem;
+  line-height: 5.3rem;
 }
 
-div.item-cv {
-  margin-top: 1.8rem;
+.cv-text p {
+  margin-top: 0;
 }
 
-.cv {
-  margin: 2rem 0;
+.item-cv {
+  margin-top: 2rem;
 }
+
+.cathegory {
+  margin-top: 2rem;
+}
+
 
 hr {
   text-align: center;
@@ -314,6 +330,7 @@ hr {
   border-top-style: solid;
   border-width: 2px;
   width: 100%;
+  margin: 2rem auto;
 }
 
 .cartel-tit {
@@ -328,22 +345,21 @@ hr {
 .container-fluid.slideshow {
   justify-content: center;
   margin-bottom: 2%;
-  height: 100vh;
+  height: 105vh;
   overflow: hidden;
-  /* cursor: pointer; */
   position: relative;
 }
 
 .slideshow img {
   position: absolute;
   height: 105vh;
-  /* height: 100vh; */
   z-index: 0;
 }
 
 .slideshow img:first-child {
   z-index: 1;
 }
+
 
 
 /* ------------PAGINA PROYECTOS---------------- */
