@@ -545,6 +545,11 @@ hr {
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
 
 @media screen and (max-width: 768px) {
+
+  .project-home-image {
+    display: none;
+  }
+
   .title-mobile {
     /* position: static;
     visibility: visible; */
