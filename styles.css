@@ -457,6 +457,15 @@ hr {
   display: none;
 }
 
+/*                           Religion */
+.galeria.yodije {
+  margin: 680px auto -350px;
+}
+
+.galeria.yodije-m {
+  display: none;
+}
+
 
 
 /*                           Schweine */
@@ -519,10 +528,6 @@ hr {
     width: 80%;
   }
 
-
-  /* .mobile {
-    display: none;
-  } */
 }
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
@@ -628,6 +633,15 @@ hr {
     display: block;
   }
 
+  /*                           Yo dije */
+  .galeria.yodije {
+    display: none;
+  }
+
+  .galeria.yodije-m {
+    display: block;
+    margin: 850px auto -650px;
+  }
 
   /*                           Schweine */
   .galeria.schweine {
@@ -756,7 +770,13 @@ hr {
   .galeria.religion-m {
     width: 90%;
     margin: 950px auto -920px;
+
+  }
+  /*                           Yo dije */
+
+  .galeria.yodije-m {
     display: block;
+    margin: 800px auto -750px;
   }
 
 
