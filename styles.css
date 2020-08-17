@@ -226,21 +226,12 @@ h1:hover {
 }
 
 .h-welcome:hover+.project-home-image {
-  background-image: url('images/welcome1.png');
+  background-image: url('images/welcome-5.jpg');
   top: 180px;
   left: 25%;
   height: 60%;
   width: 50%;
   opacity: 100%;
-}
-
-.h-que:hover+.project-home-image {
-  opacity: 100%;
-  top: 150px;
-  left: 34%;
-  height: 500px;
-  width: 50%;
-  background-image: url('images/8.jpg');
 }
 
 .h-la-imprenta:hover+.project-home-image {
@@ -251,6 +242,27 @@ h1:hover {
   width: 450px;
   background-image: url('images/hogar.jpg');
 }
+
+.h-rel-cat:hover+.project-home-image {
+  opacity: 100%;
+  top: 30%;
+  left: 20%;
+  height: 300px;
+  width: 300px;
+  background-image: url('images/religion-4.jpg');
+}
+
+
+/* .h-que:hover+.project-home-image {
+  opacity: 100%;
+  top: 150px;
+  left: 34%;
+  height: 500px;
+  width: 50%;
+  background-image: url('images/8.jpg');
+} */
+
+
 
 /* ------------PAGINA ABOUT---------------- */
 body.about {
@@ -457,7 +469,7 @@ hr {
   display: none;
 }
 
-/*                           Religion */
+/*                          Yo dije */
 .galeria.yodije {
   margin: 680px auto -350px;
 }
@@ -775,7 +787,6 @@ hr {
   /*                           Yo dije */
 
   .galeria.yodije-m {
-    display: block;
     margin: 800px auto -750px;
   }
 
