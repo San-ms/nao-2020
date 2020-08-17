@@ -88,6 +88,10 @@ p {
   line-height: 1.9rem;
 }
 
+sup {
+  font-size: 1rem;
+}
+
 .foot-note {
   margin-top: 2rem;
   font-size: 1.2rem;
@@ -444,6 +448,16 @@ hr {
 }
 
 
+/*                           Religion */
+.galeria.religion {
+  margin: 800px auto -550px;
+}
+
+.galeria.religion-m {
+  display: none;
+}
+
+
 
 /*                           Schweine */
 .galeria.schweine {
@@ -603,6 +617,18 @@ hr {
     display: block;
   }
 
+  /*                           Religion */
+  .galeria.religion {
+  display: none;
+  }
+
+  .galeria.religion-m {
+    width: 60%;
+    margin: 900px auto -800px;
+    display: block;
+  }
+
+
   /*                           Schweine */
   .galeria.schweine {
     display: none;
@@ -723,6 +749,16 @@ hr {
   .galeria.welcome-m {
     margin: 1150px auto -1150px;
   }
+
+  /*                           Religion */
+
+
+  .galeria.religion-m {
+    width: 90%;
+    margin: 950px auto -920px;
+    display: block;
+  }
+
 
   /*                           Schweine */
   .galeria.schweine-m {
