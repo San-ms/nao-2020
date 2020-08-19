@@ -68,7 +68,7 @@ i {
 }
 
 .cuerpo {
-  max-width: 1366px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -358,6 +358,13 @@ hr {
 }
 
 /* ------------PAGINA MISC---------------- */
+
+ .slide.cuerpo {
+    max-width: 1800px;
+    margin: auto;
+  /* width: 100%; */
+}
+
 .container-fluid.slideshow {
   justify-content: center;
   margin-bottom: 2%;
