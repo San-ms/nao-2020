@@ -373,6 +373,23 @@ hr {
   position: relative;
 }
 
+
+.galeria.misc-ipdh {
+
+display: none;
+}
+
+.galeria.misc-ipdv {
+
+display: none;
+}
+
+.galeria.misc-mobilev {
+
+display: none;
+}
+
+
 .slideshow img {
   position: absolute;
   height: 105vh;
@@ -547,6 +564,22 @@ hr {
     width: 80%;
   }
 
+
+  /* ------------------      PAGINA MISC */
+
+  .container-fluid.slideshow {
+    display: none;
+  }
+
+  .galeria.misc-ipdh {
+    width: 100%;
+    padding: 0;
+   display: block;
+
+  }
+
+
+
 }
 
 /* ________MEDIA QUERIES IPAD VERTICAL________  */
@@ -634,6 +667,22 @@ hr {
   .galeria {
     width: 80%;
   }
+
+
+  /* ------------------      PAGINA MISC */
+
+  .galeria.misc-ipdh {
+  display: none;
+  }
+
+  .galeria.misc-ipdv {
+  width: 100%;
+  padding: 0;
+  display: block;
+  }
+
+
+
 
   /*                IPAD       modificar segun cada proyecto */
   /*                         WELCOME */
@@ -781,6 +830,19 @@ hr {
   .galeria {
     width: 90%;
   }
+
+  /* ------------------      PAGINA MISC */
+
+  .galeria.misc-ipdv {
+  display: none;
+  }
+
+  .galeria.misc-mobilev {
+    width: 100%;
+    /* padding: 0; */
+  display: block;
+  }
+
 
   /*             MOBILE  modificar segun cada proyecto */
   /*                         WELCOME */
