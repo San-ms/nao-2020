@@ -26,12 +26,14 @@ font-style: normal;
 
 @font-face {
   font-family: TimesDotRom;
+  font-style: normal;
   src: url('fonts/TimesDotRom.otf');
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
   font-family: TimesDotItalic;
+  font-style: italic;
   src: url('fonts/TimesDotItalic.otf');
   text-rendering: optimizeLegibility;
 }
@@ -57,9 +59,15 @@ i {
   font-style: italic;
 }
 
+.versalitas-i {
+  font-family:  TimesDotItalic;
+  font-variant: small-caps;
+  letter-spacing: 0.1rem;
+}
+
 .versalitas {
   font-variant: small-caps;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .bold-cv {
