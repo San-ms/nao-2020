@@ -1,6 +1,6 @@
-/* ----------STYLES IMPRENTA-------- */
+/* ----------STYLES IMPRENTA 1800px-------- */
   body {
-    height: 600vh;
+    height: 400vh;
   }
 
   .fondo {
@@ -11,7 +11,7 @@
     top: 5%;
     left: 100vw;
     /* left: 100vw; */
-    width: 750vh;
+    width: 570vh;
     height: 80vh;
     z-index: 1;
     justify-content: flex-start;
@@ -36,7 +36,7 @@
   }
 
   .galeria.imprenta {
-    margin-left: 400px;
+    /* margin-left: 400px; */
   }
 
   .cartel p {
@@ -61,11 +61,28 @@
     width: 400px;
   }
 
-@media screen and (max-width: 1280px) {
 
+  @media screen and (max-width: 1400px) {
+
+    body {
+      height: 500vh;
+    }
+
+    .fondo {
+      width: 650vh;
+      height: 90vh;
+    }
+    .galeria.imprenta {
+      margin-left: 0px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 1280px) {
 
   body {
-    height: 700vh;
+    height: 650vh;
   }
 
   .fondo {
@@ -74,6 +91,8 @@
   }
 
 }
+
+
 
 
 
