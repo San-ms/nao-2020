@@ -14,7 +14,3 @@ slideshow.addEventListener("mousemove", function(event) {
   images[imageNumber].style.zIndex = 1
 
 })
-
-$('.carousel').carousel({
-  interval: 2000
-})
