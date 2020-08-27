@@ -116,7 +116,7 @@ sup {
   padding: 0;
 }
 
-/* NAV */
+/* ----------------- NAV */
 .menu-b {
   font-size: 1.5rem;
   font-family: "TimesDotItalic";
@@ -137,7 +137,6 @@ sup {
 
 .logo:hover {
   font-family: 'SangBleuEmpire-Medium';
-  /* font-style: normal; */
   color: red;
   text-decoration: none;
 }
@@ -172,7 +171,6 @@ footer {
 }
 
 /* ---------------------- HOME ----------------- */
-
 .main-description p {
   width: 85%;
   font-size: 3.1rem;
@@ -205,7 +203,6 @@ h1:hover {
 
 .tx-crossed {
   text-decoration: line-through;
-
 }
 
 a.links-index {
@@ -229,8 +226,7 @@ hr {
   margin: 2rem auto;
 }
 
-/* ------- IMAGENES PROYECTOS------- */
-
+/* ----------- IMAGENES PROYECTOS------- */
 .project-home-image {
   background-size: cover;
   background-position: center;
@@ -240,7 +236,6 @@ hr {
   display: inline-block;
   opacity: 0%;
   transition: 0.5s;
-
 }
 
 .h-unayuna:hover+.project-home-image {
@@ -350,7 +345,6 @@ body.about {
 
 .about a.links-about {
   text-decoration: underline;
-
 }
 
 .about a.links-about:hover {
@@ -393,7 +387,6 @@ div.cv p {
 .about hr {
   border-color: white;
   width: 100%;
-
 }
 
 .cartel-tit {
@@ -452,7 +445,6 @@ div.cv p {
   margin-bottom: 2%;
 }
 
-/* _________*/
 /* ------------PAGINA PROYECTOS---------------- */
 /* DESCRIPCION PROYECTO */
 .container-projects {
@@ -507,7 +499,7 @@ div.cv p {
   display: none;
 }
 
-/* IMAGES PROYECTO */
+/* ------------ GALERIAS PROYECTOS*/
 .galeria {
   width: 85%;
   padding: 0;
@@ -521,7 +513,7 @@ div.cv p {
   margin-bottom: 40px;
 }
 
-/*                 DESKTOP   modificar segun cada proyecto */
+/*                 DESKTOP*/
 /*                           Welcome */
 .galeria.welcome {
   margin: 800px auto -550px;
@@ -583,11 +575,6 @@ div.cv p {
 
 .galeria.unayuna-m {
   display: none;
-}
-
-/*                           Que */
-.galeria.que {
-  margin: 1250px auto -850px;
 }
 
 /* ________MEDIA QUERIES IPAD HORIZONTAL________  */
@@ -706,7 +693,6 @@ div.cv p {
   hr {
     border-width: 0.2rem;
   }
-
 
   /* ------------------      PAGINA MISC */
   .galeria.misc-ipdh {
@@ -839,10 +825,10 @@ div.cv p {
   hr {
     border-width: 0.15rem;
   }
+
   .about hr {
     border-width: 0.15rem;
-   }
-
+  }
 
   .available {
     margin: 3rem auto;
@@ -883,7 +869,7 @@ div.cv p {
     display: block;
   }
 
-  /*             MOBILE  modificar segun cada proyecto */
+  /*                    GELERIA PROYECTOS */
   /*                         WELCOME */
   .galeria.welcome-m {
     margin: 1150px auto -1150px;
@@ -922,12 +908,12 @@ div.cv p {
 
   .galeria.design-m {
     display: block;
-    margin: 1600px auto -1570px;
+    margin: 1500px auto -1500px;
   }
 
   /*                           UNA Y UNA */
   .galeria.unayuna-m {
     display: block;
-    margin: 2100px auto -2100px;
+    margin: 1600px auto -1600px;
   }
 }
