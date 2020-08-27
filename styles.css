@@ -872,7 +872,7 @@ div.cv p {
   /*                    GELERIA PROYECTOS */
   /*                         WELCOME */
   .galeria.welcome-m {
-    margin: 1150px auto -1150px;
+    margin: 900px auto -900px;
   }
 
   /*                           Religion */
@@ -888,7 +888,7 @@ div.cv p {
 
   /*                           Schweine */
   .galeria.schweine-m {
-    margin: 1350px auto -1350px;
+    margin: 1000px auto -950px;
   }
 
   /*                         MISS  */
@@ -898,7 +898,7 @@ div.cv p {
 
   .galeria.miss-m {
     display: block;
-    margin: 1250px auto -1200px;
+    margin: 850px auto -800px;
   }
 
   /*                         DESIGN  */
