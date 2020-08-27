@@ -121,7 +121,6 @@ sup {
   font-size: 1.5rem;
   font-family: "TimesDotItalic";
   text-decoration: underline;
-  text-decoration-thickness: 0.2rem;
 }
 
 .menu-b:hover {
@@ -204,13 +203,13 @@ h1:hover {
 
 .tx-crossed {
   text-decoration: line-through;
-  text-decoration-thickness: 0.2rem;
+
 }
 
 a.links-index {
   font-style: italic;
   text-decoration: underline;
-  text-decoration-thickness: 0.2rem;
+
 }
 
 a.links-index:hover {
@@ -350,7 +349,7 @@ body.about {
 
 .about a.links-about {
   text-decoration: underline;
-  text-decoration-thickness: 0.2rem;
+
 }
 
 .about a.links-about:hover {
@@ -787,7 +786,7 @@ div.cv p {
 @media screen and (max-width: 590px) {
   .menu-b {
     font-size: 1rem;
-    text-decoration-thickness: 0.15rem;
+
   }
 
   .logo {
@@ -845,17 +844,7 @@ div.cv p {
     border-width: 0.15rem;
    }
 
-  .about a.links-about {
-    text-decoration-thickness: 0.15rem;
-  }
 
-  .tx-crossed {
-    text-decoration-thickness: 0.15rem;
-  }
-
-  a.links-index {
-    text-decoration-thickness: 0.15rem;
-  }
 
 
   .available {
