@@ -134,6 +134,6 @@ footer.mobile-imp {
 /* ________MEDIA QUERIES IPHONE________  */
 @media screen and (max-width: 590px) {
   .galeria.imprenta-m {
-    margin: 1150px auto -1100px;
+    margin: 1100px auto -1000px;
   }
 }
