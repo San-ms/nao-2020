@@ -121,11 +121,13 @@ sup {
   font-size: 1.5rem;
   font-family: "TimesDotItalic";
   text-decoration: underline;
+  font-style: italic;
 }
 
 .menu-b:hover {
   font-family: "TimesDotRom";
   text-decoration: none;
+  font-style: normal;
 }
 
 .logo {
@@ -209,7 +211,6 @@ h1:hover {
 a.links-index {
   font-style: italic;
   text-decoration: underline;
-
 }
 
 a.links-index:hover {
@@ -636,7 +637,6 @@ div.cv p {
 
   .menu-b {
     font-size: 1.3rem;
-
   }
 
   .logo {
@@ -786,7 +786,6 @@ div.cv p {
 @media screen and (max-width: 590px) {
   .menu-b {
     font-size: 1rem;
-
   }
 
   .logo {
@@ -845,8 +844,6 @@ div.cv p {
    }
 
 
-
-
   .available {
     margin: 3rem auto;
     color: white;
@@ -856,7 +853,7 @@ div.cv p {
   }
 
   .projects-desc {
-    margin: 15% auto 0%;
+    margin: 15% auto 0;
     bottom: 12vh;
   }
 
