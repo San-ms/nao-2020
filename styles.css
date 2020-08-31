@@ -712,7 +712,7 @@ div.cv p {
   }
 
   .galeria.welcome-m {
-    margin: 1050px auto -900px;
+    margin: 900px auto -750px;
     display: block;
   }
 
@@ -744,17 +744,17 @@ div.cv p {
 
   .galeria.schweine-m {
     display: block;
-    margin: 1350px auto -1250px;
+    margin: 1000px auto -900px;
   }
 
   /*                         MISS  */
   .galeria.miss {
-    margin: 1200px auto -1000px;
+    margin: 850px auto -750px;
   }
 
   /*                         DESIGN */
   .galeria.design {
-    margin: 1500px auto -1400px;
+    margin: 1400px auto -1300px;
   }
 
   /*                           UNA Y UNA */
@@ -764,7 +764,7 @@ div.cv p {
 
   .galeria.unayuna-m {
     display: block;
-    margin: 1820px auto -1650px;
+    margin: 1400px auto -1300px;
   }
 }
 
